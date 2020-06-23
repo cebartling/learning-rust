@@ -31,6 +31,6 @@ impl fmt::Display for List {
 }
 
 fn main() {
-    let v = List(vec![1, 2, 3]);
+    let v = List(vec![10, 20, 30]);
     println!("{}", v);
 }
